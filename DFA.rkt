@@ -6,11 +6,6 @@
         (lambda (d) (and (equal? (car d) curr-state) (equal? (cadr d) input)))
         delta))
 
-; (define (find-delta-tuple delta curr-state input)
-;     (findf 
-;         (lambda (d) #t)
-;         delta))
-
 (define (finalstate? s0 F)
     (cond
         ((eq? (index-of F s0) #f) #f)
