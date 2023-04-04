@@ -101,5 +101,5 @@
 
 (module+ main (run-tests))
 
-; (displayln "pls work.jpg :tm:")
+
 ; (NFA "0100" '("1" "0") '(q0 q1) 'q0 '((q0 "0" q0) (q0 "1" q1) (q1 "0" q1) (q1 "1" q1)) '(q1))

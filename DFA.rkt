@@ -23,5 +23,5 @@
 (define test-F '(HAPPY))
 
 (DFA2 test-input test-Sigma test-S test-s0 test-Delta test-F)
-(displayln "pls work.jpg :tm:")
+
 (DFA2 "0100" '("1" "0") '(q0 q1) 'q0 '((q0 "0" q0) (q0 "1" q1) (q1 "0" q1) (q1 "1" q1)) '(q1))
